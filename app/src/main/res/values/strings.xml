@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">SpeedTraffic</string>
+    <string name="title_activity_main">SpeedTraffic</string>
+    <string name="app_name_10">SpeedTest 10</string>
+    <string name="app_name_15">SpeedTest 15</string>
+    <string name="app_name_20">SpeedTest 20</string>
+    <string name="app_name_25">SpeedTest 25</string>
+    <string name="app_name_30">SpeedTest 30</string>
+    <string name="app_name_500">SpeedTest 500</string>
+    <string name="app_name_1000">SpeedTest 1000</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="native_home">ca-app-pub-8293202984732468/2017039636</string>
+    <string name="banner_home">ca-app-pub-8293202984732468/1707485238</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_test">SpeedTraffic</string>
+    <string name="title_activity_main_teste">SpeedTraffic</string>
+    <string name="title_activity_gatemay">SpeedTraffic</string>
+    <string name="title_activity_abertura">SpeedTraffic</string>
+    <string name="title_activity_gatway">SpeedTraffic</string>
+    <string name="name">SPEEDTEST</string>
+    <string name="download">Download</string>
+    <string name="max">Max</string>
+    <string name="avg">Avg</string>
+    <string name="unit">Mbps</string>
+    <string name="upload">Upload</string>
+    <string name="latency">Ping</string>
+    <string name="loss">Packet loss</string>
+    <string name="status">status</string>
+    <string name="begin_test">Begin Test</string>
+    <string name="stserverhost">Server host</string>
+    <string name="stserverport">Server port</string>
+    <string name="stbtserverok">Ok</string>
+    <string name="best_server">Best Server</string>
+    <string name="wifi">WIFI</string>
+    <string name="lte">LTE</string>
+    <string name="banner_ad_unit_id">ca-app-pub-9333264661298583~2792260121</string>
+    <string-array name="list_select_test">
+        <item>Download</item>
+        <item>Upload</item>
+
+    </string-array>
+    <string name="title_activity_historic">SpeedTraffic</string>
+    <string name="title_activity_kk">kk</string>
+</resources>

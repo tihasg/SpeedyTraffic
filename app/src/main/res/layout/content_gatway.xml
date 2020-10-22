@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimary"
+    android:layout_height="match_parent"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.tiagogameover.speedtraffic.Gatway"
+    tools:showIn="@layout/activity_gatway">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_your_ip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignEnd="@+id/tv_your_ip_dat"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignRight="@+id/tv_your_ip_dat"
+                    android:layout_weight="1"
+                    android:text="Seu IP"
+                    android:textAlignment="center"
+                    android:textColor="@color/textColor"
+                    android:textSize="12sp"
+                    android:textStyle="normal|bold"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="0dp" />
+
+                <TextView
+                    android:id="@+id/tv_remout_ip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/tv_remout_ip_dat"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignStart="@+id/tv_remout_ip_dat"
+                    android:layout_below="@+id/tv_your_ip"
+                    android:layout_weight="1"
+                    android:text="Remout IP"
+                    android:textAlignment="center"
+                    android:textColor="@color/textColor"
+                    android:textSize="12sp"
+                    android:textStyle="normal|bold"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="0dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_your_ip_dat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="000.00.00.0"
+                    android:textAlignment="center"
+                    android:textColor="@color/textColor"
+                    android:textSize="12sp"
+                    android:textStyle="normal|bold"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="0dp" />
+
+                <TextView
+                    android:id="@+id/tv_remout_ip_dat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/tv_your_ip"
+                    android:layout_weight="1"
+                    android:text="000.00.00.0"
+                    android:textAlignment="center"
+                    android:textColor="@color/textColor"
+                    android:textSize="12sp"
+                    android:textStyle="normal|bold"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="0dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_start_test"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="10dp"
+        android:background="@color/textColor2"
+        android:elevation="0dp"
+        android:shadowRadius="15"
+        android:text="Testar"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_light"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <com.github.lzyzsd.circleprogress.ArcProgress
+        android:id="@+id/arc_progress"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:visibility="visible"
+        custom:arc_bottom_text="Speed in"
+        custom:arc_bottom_text_size="30dp"
+        custom:arc_finished_color="#FF3AF3FF"
+        custom:arc_max="100"
+        custom:arc_progress="55"
+        custom:arc_suffix_text="Mb/s"
+        custom:arc_suffix_text_padding="15dp"
+        custom:arc_suffix_text_size="20dp"
+        custom:arc_text_color="@color/white"
+        custom:arc_text_size="70dp"
+        custom:arc_unfinished_color="@color/white"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <ImageView
+        android:id="@+id/iv_signal_rang"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/arc_progress_out"
+        android:layout_alignLeft="@+id/arc_progress_out"
+        android:layout_alignStart="@+id/arc_progress_out"
+        android:src="@drawable/ic_wifi_6"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="0dp">
+
+    </ImageView>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="48dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/arc_progress"
+        android:indeterminate="false"
+        android:max="100"
+        android:progress="0"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp" />
+
+    <com.github.lzyzsd.circleprogress.ArcProgress
+        android:id="@+id/arc_progress_out"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignBottom="@+id/arc_progress"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:visibility="visible"
+        custom:arc_bottom_text="Speed out"
+        custom:arc_bottom_text_size="10dp"
+        custom:arc_finished_color="#FF3AF3FF"
+        custom:arc_max="100"
+        custom:arc_progress="10"
+        custom:arc_suffix_text="Mb/s"
+        custom:arc_suffix_text_padding="10dp"
+        custom:arc_suffix_text_size="10dp"
+        custom:arc_text_color="@color/white"
+        custom:arc_text_size="30dp"
+        custom:arc_unfinished_color="@color/white"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="0dp" />
+
+</RelativeLayout>

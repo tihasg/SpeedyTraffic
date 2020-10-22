@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_teste"
+            android:icon="@drawable/teste"
+            android:title="Testar Velocidade" />
+        <item
+            android:id="@+id/nav_velocidade"
+            android:icon="@drawable/ic_wifi_1"
+            android:title="Velocidade do Wifi" />
+        <item
+            android:id="@+id/nav_gateway"
+            android:icon="@drawable/gatemay"
+            android:title="Monitoramento Gateway" />
+
+    </group>
+
+    <item android:title="SpeedTraffic">
+        <menu>
+
+            <item
+                android:id="@+id/historicp"
+                android:icon="@drawable/hist"
+                android:title="Historico" />
+            <item
+                android:id="@+id/nav_hitorico2"
+                android:icon="@drawable/hist"
+                android:title="Historico Gateway" />
+
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorAccent">#2d3a4a</color>
+    <color name="textColor">#3af3ff</color>
+    <color name="buttonBackground">#3af3ff</color>
+    <color name="textColor2">#242e3a</color>
+    <color name="colorPrimary">#2d3a4a</color>
+    <color name="colorPrimaryDark">#1d252e</color>
+
+    <color name="colorBg">#ffee58</color>
+    <color name="dark_grey_color">#5e5e5e</color>
+    <color name="black_color">#000000</color>
+    <color name="blue_color">#0000ff</color>
+    <color name="purple_color">#882252</color>
+    <color name="purple_error_color">#b90459</color>
+    <color name="green_color">#007b76</color>
+    <color name="light_green_color">#a2c537</color>
+    <color name="red_color">#ff0000</color>
+    <color name="welcome_color">#7e7e7e</color>
+    <color name="title_color">#262626</color>
+    <color name="transparent_color">#00000000</color>
+    <color name="transparent_dark_color">#bb000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="fuchsia">#FF00FF</color>
+    <color name="red">#FF0000</color>
+    <color name="silver">#C0C0C0</color>
+    <color name="gray">#808080</color>
+    <color name="olive">#808000</color>
+    <color name="purple">#800080</color>
+    <color name="maroon">#800000</color>
+    <color name="aqua">#00FFFF</color>
+    <color name="lime">#00FF00</color>
+    <color name="teal">#008080</color>
+    <color name="green">#008000</color>
+    <color name="blue">#0000FF</color>
+    <color name="navy">#000080</color>
+    <color name="black">#000000</color>
+    <color name="trans">#00000000 </color>
+    <color name="max_result">#f26122 </color>
+    <color name="avg_result">#89c64b </color>
+    <color name="interface_result">#eee810 </color>
+</resources>

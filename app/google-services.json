@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "785207754800",
+    "firebase_url": "https://speedytraffic-73a6b.firebaseio.com",
+    "project_id": "speedytraffic-73a6b",
+    "storage_bucket": "speedytraffic-73a6b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:785207754800:android:bcb1656de727db30",
+        "android_client_info": {
+          "package_name": "com.tiagogameover.speedtraffic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "785207754800-nnivtvffqlmd7ipl72qlci63pasptp2l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtheUmUDYgyPgojaZfE4j1zRElVxxnKJE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
